@@ -26,8 +26,7 @@ btnOperations.addEventListener('click', function(e) {
         operationContent.forEach((content) => {
             content.classList.remove('content-active');
             document.querySelector(`.operations-content-${btnClicked.dataset.tab}`).classList.add('content-active');
-        } )
-       
+        })
     });
 });
 
