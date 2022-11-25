@@ -6,7 +6,7 @@ const btnOperations = document.querySelector('.btn-operations');
 const  operationTab = document.querySelectorAll('.operation-tab');
 //Блок в котором находиться весь контент
 const operationsContent = document.querySelector('.operations-contents');
-
+//Получение контента
 const operationContent = document.querySelectorAll('.operation-content');
 
 btnOperations.addEventListener('click', function(e) {
