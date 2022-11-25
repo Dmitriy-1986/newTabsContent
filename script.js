@@ -29,8 +29,6 @@ btnOperations.addEventListener('click', function(e) {
         } )
        
     });
-
-   
 });
 
 
