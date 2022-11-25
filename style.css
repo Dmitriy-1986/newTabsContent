@@ -1,0 +1,12 @@
+.btn-active {
+    color: red;
+}
+
+.operation-content {
+    display: none;
+}
+
+.content-active {
+    display: block;
+}
+
