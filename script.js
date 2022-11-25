@@ -14,7 +14,7 @@ btnOperations.addEventListener('click', function(e) {
     //Получаем ближайший элемент и сам элемент из цепочки наследования closest('.operation-tab')
     const btnClicked = e.target.closest('.operation-tab');
 
-    //Пункт охраны
+    //Условие которое не допускает добавление классов если null по клику
     if(!btnClicked) return;
 
     //Активная вкладка
